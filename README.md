@@ -1,28 +1,17 @@
-# Vamos Viajando Travels and Tours
+# Vamos Viajando — Travels & Tours
 
-Sitio web estático listo para GitHub Pages.
+English-language static website for GitHub Pages.
 
-## Archivos
-- `index.html` — estructura y contenido.
-- `styles.css` — diseño responsive.
-- `script.js` — menú, reservas y WhatsApp.
-- `logo.jpg` — logo proporcionado para el sitio.
+## Tours
+- Masaya Volcano — Private: US$35/person, minimum 2
+- Masaya Volcano — Shared: US$25/person, minimum 1
+- Granada Islets — Private Boat: US$30/person; 5+ people US$20/person
+- Kayak — Private: US$30/person, minimum 2
+- Mombacho Crater: US$45/person, minimum 2
+- Colonial Granada is presented as a destination/experience inquiry rather than a priced tour.
 
-## Antes de publicar
-En `script.js`, cambia:
+## WhatsApp
++505 7500 0955
 
-`const whatsapp='505XXXXXXXX';`
-
-por el número real de WhatsApp de Vamos Viajando, sin `+`, espacios ni guiones.
-
-También puedes cambiar los enlaces de Instagram, Facebook y TikTok en `index.html`.
-
-## Publicar con GitHub Pages
-1. Crea un repositorio en GitHub, por ejemplo `vamos-viajando`.
-2. Sube `index.html`, `styles.css`, `script.js`, `logo.jpg` y `README.md`.
-3. Ve a **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**.
-5. Selecciona la rama `main` y la carpeta `/ (root)`.
-6. Guarda y espera a que GitHub publique el sitio.
-
-La página funcionará como un sitio estático y es compatible con GitHub Pages.
+## Images
+The images in `images/` were supplied for the Vamos Viajando website and organized by destination.
