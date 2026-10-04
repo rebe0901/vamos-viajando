@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vamos Viajando Travels and Tours — Tu aventura comienza aquí. Tours de volcanes, Isletas, kayak y Mombacho en Nicaragua.">
+  <meta name="theme-color" content="#0d7f8f">
+  <title>Vamos Viajando | Travels and Tours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="navbar container">
+      <a class="brand" href="#inicio" aria-label="Vamos Viajando inicio">
+        <img src="logo.jpg" alt="Logo Vamos Viajando Travels and Tours">
+        <span>Vamos Viajando<small>TRAVELS &amp; TOURS</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#tours">Tours</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#experiencias">Experiencias</a>
+        <a href="#contacto">Contacto</a>
+        <a class="nav-cta" href="#reservar">Reservar</a>
+      </div>
+    </nav>
+
+    <div class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Nicaragua • Naturaleza • Aventura</p>
+        <h1>Tu aventura<br><span>comienza aquí.</span></h1>
+        <p class="hero-text">Descubre volcanes, isletas, paisajes y experiencias inolvidables con Vamos Viajando Travels and Tours.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#tours">Explorar tours <span>→</span></a>
+          <a class="btn btn-ghost" href="#reservar">Reservar ahora</a>
+        </div>
+        <div class="hero-points">
+          <span>✓ Tours privados</span>
+          <span>✓ Tours compartidos</span>
+          <span>✓ Atención personalizada</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-image">
+          <div class="image-overlay"></div>
+          <div class="floating-badge"><strong>5</strong><span>experiencias<br>para elegir</span></div>
+          <div class="hero-location"><span>📍</span> Nicaragua</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="trust-strip">
+      <div class="container trust-items">
+        <div><strong>🌋</strong><span>Volcanes</span></div>
+        <div><strong>🛥️</strong><span>Isletas</span></div>
+        <div><strong>🛶</strong><span>Kayak</span></div>
+        <div><strong>🌿</strong><span>Naturaleza</span></div>
+        <div><strong>📸</strong><span>Recuerdos</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="tours">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow teal">ELIGE TU EXPERIENCIA</p><h2>Vive Nicaragua<br><em>a tu manera.</em></h2></div>
+          <p>Selecciona una experiencia y descubre una nueva forma de conocer los paisajes de Nicaragua.</p>
+        </div>
+        <div class="tour-grid">
+          <article class="tour-card featured">
+            <div class="tour-photo volcano"><span>🌋</span><small>AVENTURA</small></div>
+            <div class="tour-content"><div class="tour-top"><span class="tag">PRIVADO</span><span class="price">US$35 <small>/ persona</small></span></div><h3>Volcán — Tour privado</h3><p>Una experiencia exclusiva para disfrutar el destino con tu propio grupo.</p><div class="tour-meta"><span>👥 Mín. 2 personas</span><span>⭐ Privado</span></div><button class="tour-btn" data-tour="Volcán — Tour privado">Reservar experiencia <span>→</span></button></div>
+          </article>
+          <article class="tour-card">
+            <div class="tour-photo volcano2"><span>🌋</span><small>AVENTURA</small></div>
+            <div class="tour-content"><div class="tour-top"><span class="tag shared">COMPARTIDO</span><span class="price">US$25 <small>/ persona</small></span></div><h3>Volcán — Tour compartido</h3><p>Conoce el destino compartiendo la experiencia con otros viajeros.</p><div class="tour-meta"><span>👥 Desde 1 persona</span><span>🤝 Compartido</span></div><button class="tour-btn" data-tour="Volcán — Tour compartido">Reservar experiencia <span>→</span></button></div>
+          </article>
+          <article class="tour-card">
+            <div class="tour-photo isletas"><span>🛥️</span><small>AGUA &amp; NATURALEZA</small></div>
+            <div class="tour-content"><div class="tour-top"><span class="tag">PRIVADO</span><span class="price">US$30 <small>/ persona</small></span></div><h3>Isletas en bote</h3><p>Recorre las Isletas y disfruta una experiencia tranquila rodeada de naturaleza.</p><div class="tour-meta"><span>👥 Privado</span><span>👥 5+ → US$20 pp</span></div><button class="tour-btn" data-tour="Isletas en bote">Reservar experiencia <span>→</span></button></div>
+          </article>
+          <article class="tour-card">
+            <div class="tour-photo kayak"><span>🛶</span><small>AVENTURA</small></div>
+            <div class="tour-content"><div class="tour-top"><span class="tag">PRIVADO</span><span class="price">US$30 <small>/ persona</small></span></div><h3>Kayak — Tour privado</h3><p>Conecta con el agua y el paisaje en una aventura pensada para tu grupo.</p><div class="tour-meta"><span>👥 Mín. 2 personas</span><span>⭐ Privado</span></div><button class="tour-btn" data-tour="Kayak — Tour privado">Reservar experiencia <span>→</span></button></div>
+          </article>
+          <article class="tour-card">
+            <div class="tour-photo mombacho"><span>⛰️</span><small>MONTAÑA</small></div>
+            <div class="tour-content"><div class="tour-top"><span class="tag">EXPLORACIÓN</span><span class="price">US$45 <small>/ persona</small></span></div><h3>Mombacho — Cráter</h3><p>Explora el entorno del Mombacho y disfruta una jornada de naturaleza y aventura.</p><div class="tour-meta"><span>👥 Mín. 2 personas</span><span>🌿 Naturaleza</span></div><button class="tour-btn" data-tour="Mombacho — Cráter">Reservar experiencia <span>→</span></button></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="nosotros">
+      <div class="container story-grid">
+        <div class="story-visual">
+          <div class="story-circle"><img src="logo.jpg" alt="Logo de Vamos Viajando"></div>
+          <span class="stamp">TU AVENTURA<br>COMIENZA AQUÍ</span>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow teal">VAMOS JUNTOS</p>
+          <h2>Más que un tour,<br><em>una experiencia.</em></h2>
+          <p>En Vamos Viajando queremos que descubrir Nicaragua sea sencillo, emocionante y memorable. Diseñamos experiencias para quienes quieren conocer nuestros paisajes, disfrutar la naturaleza y crear recuerdos.</p>
+          <div class="story-list"><div><strong>01</strong><span>Elige tu experiencia</span></div><div><strong>02</strong><span>Reserva de forma sencilla</span></div><div><strong>03</strong><span>Prepárate para disfrutar</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section" id="experiencias">
+      <div class="container">
+        <div class="experience-header"><div><p class="eyebrow teal">DESCUBRE</p><h2>Momentos que<br><em>querrás recordar.</em></h2></div><p>Volcanes, agua, montañas y paisajes. Tú eliges el camino; nosotros te acompañamos en la aventura.</p></div>
+        <div class="experience-grid">
+          <div class="exp-tile large"><div><span>🌋</span><h3>Aventura volcánica</h3><p>Explora nuevos paisajes.</p></div></div>
+          <div class="exp-tile water"><div><span>🛶</span><h3>Conecta con el agua</h3><p>Vive el momento.</p></div></div>
+          <div class="exp-tile nature"><div><span>🌿</span><h3>Naturaleza</h3><p>Respira, descubre, disfruta.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" id="reservar">
+      <div class="container booking-box">
+        <div class="booking-copy"><p class="eyebrow">RESERVA TU AVENTURA</p><h2>¿Listo para<br><em>viajar?</em></h2><p>Completa tus datos y prepararemos un mensaje para que puedas solicitar tu reserva directamente por WhatsApp.</p><div class="booking-note">💬 <span>Reserva rápida por WhatsApp<br><small>Sin formularios complicados.</small></span></div></div>
+        <form id="bookingForm" class="booking-form">
+          <label>Experiencia<select id="tourSelect" required><option value="">Selecciona un tour</option><option>Volcán — Tour privado</option><option>Volcán — Tour compartido</option><option>Isletas en bote</option><option>Kayak — Tour privado</option><option>Mombacho — Cráter</option></select></label>
+          <div class="form-row"><label>Fecha<input id="date" type="date" required></label><label>Personas<input id="people" type="number" min="1" value="2" required></label></div>
+          <div class="form-row"><label>Nombre<input id="name" type="text" placeholder="Tu nombre" required></label><label>WhatsApp<input id="phone" type="tel" placeholder="+505 ..." required></label></div>
+          <label>Mensaje (opcional)<textarea id="message" rows="3" placeholder="Cuéntanos si tienes alguna pregunta..."></textarea></label>
+          <button class="btn btn-primary full" type="submit">Solicitar reserva por WhatsApp <span>→</span></button>
+          <p class="form-help">* La disponibilidad y detalles finales se confirman directamente con Vamos Viajando.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="container cta-inner"><div><p class="eyebrow">VAMOS VIAJANDO</p><h2>Tu próxima aventura<br><em>está más cerca.</em></h2></div><a class="btn btn-light" href="#reservar">Quiero reservar <span>→</span></a></div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img src="logo.jpg" alt="Vamos Viajando"><h3>Vamos Viajando</h3><p>Travels &amp; Tours</p><strong>Tu aventura comienza aquí.</strong></div>
+      <div><h4>Explora</h4><a href="#tours">Nuestros tours</a><a href="#nosotros">Nosotros</a><a href="#experiencias">Experiencias</a></div>
+      <div><h4>Contacto</h4><a href="https://wa.me/505XXXXXXXX" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:info@vamosviajando.com">Correo electrónico</a><span>Nicaragua</span></div>
+      <div><h4>Síguenos</h4><a href="#" aria-label="Instagram">Instagram</a><a href="#" aria-label="Facebook">Facebook</a><a href="#" aria-label="TikTok">TikTok</a></div>
+    </div>
+    <div class="footer-bottom container"><span>© <span id="year"></span> Vamos Viajando Travels and Tours. Todos los derechos reservados.</span><span>Tu aventura comienza aquí.</span></div>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true"><div class="modal-backdrop" data-close></div><div class="modal-card"><button class="modal-close" data-close aria-label="Cerrar">×</button><p class="eyebrow teal">RESERVAR</p><h2 id="modalTitle">Tu aventura comienza aquí.</h2><p>Te llevaremos al formulario de reserva para que puedas solicitar esta experiencia.</p><button class="btn btn-primary full" id="modalContinue">Continuar con la reserva →</button></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
