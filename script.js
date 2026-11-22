@@ -44,3 +44,21 @@ document.getElementById('bookingForm').addEventListener('submit',e=>{
 });
 
 document.getElementById('year').textContent=new Date().getFullYear();
+
+// Selector de idiomas - Vamos Viajando
+const langES = document.getElementById('langES');
+const langEN = document.getElementById('langEN');
+
+function changeLanguage(lang) {
+  document.documentElement.lang = lang;
+  localStorage.setItem('vamosLanguage', lang);
+
+  langES?.classList.toggle('active', lang === 'es');
+  langEN?.classList.toggle('active', lang === 'en');
+}
+
+langES?.addEventListener('click', () => changeLanguage('es'));
+langEN?.addEventListener('click', () => changeLanguage('en'));
+
+changeLanguage(localStorage.getItem('vamosLanguage') || 'en');
+  
